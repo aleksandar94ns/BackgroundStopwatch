@@ -8,7 +8,8 @@
         tools:context=".ui.activity.RouteActivity">
 
     <fragment
-            android:id="@+id/routeFragment"
+            android:id="@+id/routesFragment"
+            android:name="archon.solutions.com.backgroundstopwatch.ui.fragment.RoutesFragment_"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_constraintBottom_toBottomOf="parent"
