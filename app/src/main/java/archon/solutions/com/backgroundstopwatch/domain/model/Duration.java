@@ -1,10 +1,10 @@
 package archon.solutions.com.backgroundstopwatch.domain.model;
 
-public class StopwatchDuration extends BaseModel {
+public class Duration extends BaseModel {
 
     private long duration;
 
-    public StopwatchDuration(long id, long duration) {
+    public Duration(long id, long duration) {
         super(id);
         this.duration = duration;
     }
