@@ -10,6 +10,8 @@ import org.androidannotations.annotations.FragmentById;
 import org.androidannotations.annotations.OptionsItem;
 import org.androidannotations.annotations.OptionsMenu;
 
+import java.util.HashMap;
+
 @SuppressLint("Registered")
 @EActivity(R.layout.activity_route)
 @OptionsMenu(R.menu.menu_route_activity_settings)
